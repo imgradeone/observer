@@ -9,12 +9,6 @@
       style="z-index: 10"
       dense
     >
-      <template v-slot:img="{ props }">
-        <VImg
-          v-bind="props"
-          gradient="to top right, rgba(255,255,255,0.47), rgba(255,255,255,0.8)"
-        />
-      </template>
       <VAppBarNavIcon @click.stop="showNav = !showNav" />
 
       <VToolbarTitle style="width: 100%">
