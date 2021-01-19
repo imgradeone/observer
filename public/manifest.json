@@ -1,6 +1,6 @@
 {
-  "name": "BiliOB观测者",
-  "short_name": "BiliOB",
+  "name": "Observer",
+  "short_name": "Observer",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",

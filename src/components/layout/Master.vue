@@ -280,11 +280,6 @@ export default {
           url: "/user/rank"
         },
         {
-          name: "观测者议会",
-          icon: "mdi-bank",
-          url: "/agenda"
-        },
-        {
           name: "FAQ",
           icon: "mdi-help-circle-outline",
           url: "/faq"
