@@ -6,7 +6,6 @@
     <VAppBar
       app
       elevate-on-scroll
-      fade-img-on-scroll
       style="z-index: 10"
       dense
     >
