@@ -346,7 +346,7 @@ export default {
     return {
       title: `${
         this.authorName == undefined ? "载入UP主信息中" : this.authorName
-      } - UP主数据详情 - BiliOB观测者 - B站历史数据统计分析站点`,
+      } - UP主数据详情 - Observer`,
       meta: [
         {
           vmid: "description",

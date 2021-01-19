@@ -6,7 +6,7 @@
   >
     <VCard>
       <VCardTitle class="headline primary white--text font-weight-black">
-        这里是BiliOB观测者
+        welcome to Observer
       </VCardTitle>
       <VCardText class="mt-5">
         <span>
@@ -46,11 +46,11 @@
                   left
                   small
                 >
-                  {{ getListIcon(eachType) }}
+                  {{ getListIcon(eachType
+              </div>) }}
                 </VIcon><span style="vertical-align: middle">{{
                   getTypeName(eachType)
                 }}</span>
-              </div>
               <li
                 v-for="eachItem in latestPost.list[eachType]"
                 :key="eachItem"

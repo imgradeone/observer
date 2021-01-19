@@ -12,7 +12,7 @@
         <VListItemContent>
           <VListItemTitle class="white--text">
             <h1 class="title">
-              BiliOB观测者
+              Observer
             </h1>
           </VListItemTitle>
           <VListItemSubtitle :v-model="drawer">

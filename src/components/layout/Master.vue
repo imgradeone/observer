@@ -23,7 +23,7 @@
         <VRow>
           <VCol>
             <div class="title">
-              BiliOB观测者
+              Observer
             </div>
           </VCol>
           <VSpacer />
