@@ -4,9 +4,8 @@
     @touchmove.native="touchmove"
   >
     <VAppBar
-      src="../../../img/06-app-bar.gif"
       app
-      hide-on-scroll
+      elevate-on-scroll
       fade-img-on-scroll
       style="z-index: 10"
       dense
