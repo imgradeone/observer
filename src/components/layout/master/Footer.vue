@@ -49,9 +49,13 @@
           &copy;
           {{ new Date().getFullYear() }}
           <a
-            href="https://www.github.com"
+            href="https://space.bilibili.com/1850091/"
             target="_blank"
-          >Jannchie见齐</a>, made with
+          >Jannchie见齐</a> 与 
+          <a
+            href="https://imgradeone.com"
+            target="_blank"
+          >imgradeone</a>, made with
           <VIcon
             color="red"
             size="14"
@@ -85,6 +89,10 @@ export default {
               link: "https://www.obilibili.com/"
             },
             {
+              name: "服务提供 Vercel",
+              link: "https://vercel.com/"
+            },
+            {
               name: "数据合作 @科技号",
               link: "https://space.bilibili.com/14220823"
             }
@@ -100,6 +108,10 @@ export default {
             {
               name: "BiliOB的源代码",
               link: "https://github.com/Jannchie/BiliOB"
+            },
+            {
+              name: "Observer 源代码",
+              link: "https://github.com/imgradeone/observer"
             }
           ]
         }
