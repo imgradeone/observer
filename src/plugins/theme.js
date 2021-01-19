@@ -15,9 +15,9 @@ export default {
   themes: {
     light: {
       primary: primaryColor,
-      secondary: "#4caf50",
+      secondary: "#fa82b6",
       tertiary: "#495057",
-      accent: "#82B1FF",
+      accent: "#fa4694",
       error: "#f55a4e",
       info: "#00d3ee",
       success: "#5cb860",

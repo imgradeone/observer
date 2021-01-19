@@ -46,11 +46,11 @@
                   left
                   small
                 >
-                  {{ getListIcon(eachType
-              </div>) }}
+                  {{ getListIcon(eachType) }}
                 </VIcon><span style="vertical-align: middle">{{
                   getTypeName(eachType)
                 }}</span>
+              </div>
               <li
                 v-for="eachItem in latestPost.list[eachType]"
                 :key="eachItem"
