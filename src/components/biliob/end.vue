@@ -58,7 +58,7 @@
         <VBtn
           dark
           text
-          class="mr-2 primary"
+          class="mr-2 blue"
           href="https://jq.qq.com/?_wv=1027&k=593vDCo"
         >
           加入粉丝群

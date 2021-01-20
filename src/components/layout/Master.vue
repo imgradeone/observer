@@ -79,6 +79,7 @@
                     width="100%"
                     large
                     dark
+                    color="primary"
                     to="/login"
                   >
                     <VIcon left>
@@ -123,7 +124,7 @@
                       small
                       ripple
                       text
-                      primary
+                      color="primary"
                       :loading="getCheckStatus"
                       @click.stop="$store.dispatch('checkIn')"
                     >
@@ -212,28 +213,6 @@
                 </VIcon>
                 {{ eachNavItem.name }}
               </VBtn>
-              <VBtn
-                large
-                class="naVBtn"
-                text
-                block
-                href="https://azz.net/jannchie"
-              >
-                <VIcon left>
-                  mdi-currency-cny
-                </VIcon>援助
-              </VBtn>
-              <VBtn
-                large
-                class="naVBtn"
-                text
-                block
-                to="/download/app"
-              >
-                <VIcon left>
-                  mdi-application
-                </VIcon>APP下载
-              </VBtn>
             </VContainer>
           </VNavigationDrawer>
         </div>
@@ -304,7 +283,6 @@ export default {
         { name: "UP主查询", path: "/authorlist" },
         { name: "专题查询", path: "/bangumi" },
         { name: "视频查询", path: "/videolist" },
-        // { name: "个人中心", path: "/user" }
         { name: "见齐指数", path: "/index" },
         { name: "小工具", path: "/tools" }
       ],
